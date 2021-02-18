@@ -4,14 +4,14 @@ This is a sample Java / Maven / Spring Boot application that is used as a micros
 
 ## How to Run 
 
-This application is packaged as a war which has Tomcat 8 embedded. No Tomcat or JBoss installation is necessary. You run it using the ```java -jar``` command.
+This application is packaged as a jar. No Tomcat or JBoss installation is necessary. You run it using the ```java -jar``` command.
 
 * Clone this repository 
 * Make sure you are using JDK 1.8 and Maven 3.x
 * You can build the project and run the tests by running ```mvn clean package```
 * Once successfully built, you can run the service by one of these two methods:
 ```
-        java -jar -Dspring.profiles.active=local target/testchallenge.war
+        java -jar -Dspring.profiles.active=local target/testchallenge.jar
 or
         mvn spring-boot:run -Drun.arguments="spring.profiles.active=local"
 ```
