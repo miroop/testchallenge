@@ -157,13 +157,15 @@ The java immplementation are residet in following folders
 
 **/src/java/main/testchallenge/store/controler/impl** Contains the spring boot REST controlers CategoryControler,OrderControler,ProductControler.
 
-**/src/java/main/testchallenge/store/domain/entity** 	Contains Product and Category entity .
+**/src/java/main/testchallenge/store/domain/entity** 	Contains Product and Category entity.
+
+**/src/java/main/testchallenge/store/exception** 	Contains HTTP Exceptions .
 
 **/src/java/main/testchallenge/store/mapper** Contains Product mapper between REST and entities classes.
 
 **/src/java/main/testchallenge/store/repository** Contains the repositories for product and category.
 
-**/src/java/main/testchallenge/store/service** Conatins the test classes.
+**/src/java/main/testchallenge/store** Conatins the test classes.
 
 
 ### To view your H2 in-memory datbase
