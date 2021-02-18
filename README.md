@@ -96,7 +96,7 @@ Content-Type: application/json
 }
 
 Location header: http://localhost:8080/rest/product/2/product
-RESPONSE: HTTP 200 (No Content)
+RESPONSE: HTTP 200 
 Content: product resource 
 
 ```
@@ -170,7 +170,7 @@ The java immplementation are residet in following folders
 
 ### To view your H2 in-memory datbase
 
-The 'test' profile runs on H2 in-memory database. To view and query the database you can browse to http://localhost:8090/h2-console. Default username is 'sa' with a blank password. Make sure you disable this in your production profiles. For more, see https://goo.gl/U8m62X
+The 'test' profile runs on H2 in-memory database. To view and query the database you can browse to http://localhost:8090/h2-console. Default username is 'sa' with a 'test' password. Make sure you disable this in your production profiles. For more, see https://goo.gl/U8m62X
 
 # Running the project with MySQL or Postrgresql 
 
